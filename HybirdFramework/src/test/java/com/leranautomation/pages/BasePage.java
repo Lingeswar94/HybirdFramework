@@ -60,10 +60,7 @@ public class BasePage {
 					e.printStackTrace();
 				}
 			}
-		
-		
 	}
-
 	@BeforeSuite
 	public void excelsetup() {
 		excelProvider = new ExcelProvider();
@@ -72,20 +69,16 @@ public class BasePage {
 		//ExtentHtmlReporter html = new ExtentHtmlReporter("Extent.html");
 		 ExtentHtmlReporter htmlReporter=new ExtentHtmlReporter("./Reports/Extent+"+Helper.getcurrentdate()+".html");
 		reports.attachReporter(htmlReporter);
-
 	}
-
 	@BeforeClass
 	public void OpenApp() {
 		driver = BrowserFactory.StartApplication(driver, config.geturl(), config.getbrowser());
 		System.out.println(driver.getTitle());
 	}
-
 	@AfterClass
 	public void teardown() {
 		BrowserFactory.quitBrowser(driver);
 		reports.flush();
-		
 	}
 
 }
