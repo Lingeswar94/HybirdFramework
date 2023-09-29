@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-29T13:37:00 IST" name="Suite" finished-at="2023-09-29T13:37:25 IST" duration-ms="24830">
+    <groups>
+    </groups>
+    <test started-at="2023-09-29T13:37:00 IST" name="Test" finished-at="2023-09-29T13:37:25 IST" duration-ms="24830">
+      <class name="com.leranautomation.testcases.LoginTestCRM">
+        <test-method is-config="true" signature="excelsetup()[pri:0, instance:com.leranautomation.testcases.LoginTestCRM@65e98b1c]" started-at="2023-09-29T13:36:56 IST" name="excelsetup" finished-at="2023-09-29T13:37:00 IST" duration-ms="3760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelsetup -->
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.leranautomation.testcases.LoginTestCRM@65e98b1c]" started-at="2023-09-29T13:37:00 IST" name="OpenApp" finished-at="2023-09-29T13:37:18 IST" duration-ms="17873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="loginApp()[pri:0, instance:com.leranautomation.testcases.LoginTestCRM@65e98b1c]" started-at="2023-09-29T13:37:18 IST" name="loginApp" finished-at="2023-09-29T13:37:21 IST" duration-ms="3611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="TearDownmethod(org.testng.ITestResult)[pri:0, instance:com.leranautomation.testcases.LoginTestCRM@65e98b1c]" started-at="2023-09-29T13:37:21 IST" name="TearDownmethod" finished-at="2023-09-29T13:37:22 IST" duration-ms="674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestCRM.loginApp()[pri:0, instance:com.leranautomation.testcases.LoginTestCRM@65e98b1c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownmethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.leranautomation.testcases.LoginTestCRM@65e98b1c]" started-at="2023-09-29T13:37:22 IST" name="teardown" finished-at="2023-09-29T13:37:25 IST" duration-ms="2515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.leranautomation.testcases.LoginTestCRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
