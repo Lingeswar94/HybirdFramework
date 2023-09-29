@@ -13,6 +13,7 @@ public class LoginPage {
 		this.driver = driver;
 	}
 
+	//this is new comment for testing github
 	@FindBy(name = "username")
 	public static WebElement uname;
 
